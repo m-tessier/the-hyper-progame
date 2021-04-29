@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Montserrat-medium';
+  src: url('../fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+h1 {
+  font-family: 'Montserrat-bold';
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Montserrat-bold';
+  font-size: 2em;
+  color: $red;
+}
+
+.link-extern {
+  color: $white;
+  text-decoration: none;
+  border-bottom: 2px solid $red;
+  &:hover {
+    color: $red;
+  }
+}
+
+.link-intern {
+  color: $white;
+  text-decoration: none;
+  &:hover {
+    color: $red;
+  }
+}
+
+.text-white {
+  color: $white;
+}

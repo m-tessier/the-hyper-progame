@@ -1,0 +1,21 @@
+button a {
+  text-decoration: none;
+}
+
+a {
+  color: $red;
+}
+
+
+.btn {
+  background-color: $red;
+  color: $white;
+  padding: 20px;
+  border: none;
+  font-family: 'Montserrat-bold';
+  cursor: pointer;
+  &:hover {
+    background-color: $white;
+    color: $red;
+  }
+}

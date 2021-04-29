@@ -1,0 +1,19 @@
+.cardGame {
+  max-width: 400px;
+  height: auto;
+  & img {
+    opacity: 1;
+    width: 100%;
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+}
+
+.icon-platform {
+  padding-right: 10px;
+  height: 20px;
+  &:hover {
+    filter: invert(21%) sepia(68%) saturate(9900%) hue-rotate(337deg) brightness(79%) contrast(113%);
+  }
+}
